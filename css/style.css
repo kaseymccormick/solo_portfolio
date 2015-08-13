@@ -1,4 +1,64 @@
-h1 {
-  color: red; }
+body{
+  font-family:"arial";
+}
+.clear{
+  clear:both;
+}
+.container{
+  width:80%;
+  margin:0px auto;
+}
+.project--blueg{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ad5e0+0,7db9e8+100&0.5+0,0+100 */
+  background: -moz-linear-gradient(top, rgba(154,213,224,0.7) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(154,213,224,0.5)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#809ad5e0', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+}
 
-/*# sourceMappingURL=style.css.map */
+.project__content{
+  float:left;
+}
+
+.project__content__icons__item{
+  float:left;
+  font-size:12px;
+  color:#ccc; 
+}
+.project__content__icons__item p{
+  padding:0px 0px 20px;
+  margin:0px;
+}
+
+.project__content__icons img{
+  width:50%;
+}
+
+.project__content__action a{
+ text-decoration:none;
+ color:#ccc;
+ border:1px solid #ccc;
+ border-radius:5px;
+ font-size:12px;  
+ padding:4px 8px; 
+}
+.project__content__action a:hover{
+ color:white;
+ background-color:#ccc;
+}
+
+.project__content__words--links-only{
+  width:100%;
+}
+
+.project__content__action__item{
+  float:left;
+  width:30%;
+}
+.project__image{
+  width:50%;
+  float:left;
+}
