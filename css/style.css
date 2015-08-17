@@ -8,6 +8,21 @@ body{
   width:80%;
   margin:0px auto;
 }
+.header{
+  text-align:center;
+  margin-bottom: -26px;
+  color:#868D8E;
+}
+.header-blue{
+  color: #B9E3EA; 
+}
+.project {
+  padding: 30px;
+}
+.project--right{
+  float:right;
+}
+
 .project--blueg{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ad5e0+0,7db9e8+100&0.5+0,0+100 */
   background: -moz-linear-gradient(top, rgba(154,213,224,0.7) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
@@ -22,11 +37,12 @@ body{
 .project__content{
   float:left;
 }
-
+.project__content--right {
+  float: right;
+}
 .project__content__icons__item{
   float:left;
   font-size:12px;
-  color:#ccc; 
 }
 .project__content__icons__item p{
   padding:0px 0px 20px;
@@ -38,16 +54,17 @@ body{
 }
 
 .project__content__action a{
- text-decoration:none;
- color:#ccc;
- border:1px solid #ccc;
- border-radius:5px;
- font-size:12px;  
- padding:4px 8px; 
+   text-decoration:none;
+   color:#646464;
+   border:1px solid #646464;
+   border-radius:5px;
+   font-size:12px;  
+   padding:4px 8px; 
 }
 .project__content__action a:hover{
  color:white;
- background-color:#ccc;
+ background-color:#898989;
+ border:1px solid #898989;
 }
 
 .project__content__words--links-only{
@@ -57,8 +74,17 @@ body{
 .project__content__action__item{
   float:left;
   width:30%;
+   text-align: center;
+}
+
+
+.project__content__action a:nth-child(2) {
+    margin-left: 20px;
 }
 .project__image{
-  width:50%;
+  width:40%;
   float:left;
+} 
+.project__image img {
+    width: 110%;
 }
