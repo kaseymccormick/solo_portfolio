@@ -122,12 +122,122 @@ body{
 
 .resume{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#868d8e+0,000000+100&amp;1+0,0+100 */
-  background: -moz-linear-gradient(top,  rgba(134,141,142,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(134,141,142,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(134,141,142,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(134,141,142,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(134,141,142,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(134,141,142,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868d8e', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ad5e0+0,7db9e8+100&0.5+0,0+100 */
+  background: -moz-linear-gradient(top, rgba(154,213,224,0.7) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(154,213,224,0.5)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(154,213,224,0.7) 0%,rgba(125,185,232,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#809ad5e0', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
 }
+
+.resume-content{
+  padding:30px;
+  margin:0px auto;
+}
+
+.intro__header{
+  margin-left:240px;
+}
+h4.intro__header{
+  margin-top:-18px;
+}
+
+.resume img{
+  width:40px;
+  height:40px;
+  margin-bottom: -50px;
+}
+.resume__skills__content, .education__content, .work-history__content {
+  width: 90%;
+  margin: 0px auto;
+}
+.skill__item {
+  float: left;
+  padding: 20px;
+  width: 20%;
+}
+.skill__item__label {
+  display: inline;
+}
+.skill__item__image {
+  float: right;
+  position: relative;
+  top: -13px;
+}
+.content {
+  margin-left: 53px;
+}
+.content__item {
+  padding-top: 1px;
+}
+.content__item__years {
+  list-style-type: none;
+  width: 4.5%;
+  font-size: 12px;
+  position: absolute;
+  left: 160px;
+  margin: 18px 0px 0px;
+}
+
+.content__item__years li:nth-child(2) {
+  text-align: center;
+  width: 36%;
+}
+footer{
+  color:white;
+}
+.footer__connect {
+  background-color: #B8E2E9;
+  padding:12px;
+}
+
+.footer__connect li, a{
+  list-style-type:none;
+  float:left;
+  margin-right:40px;
+  color:white;
+  text-style:none;
+}
+.footer__copywright {
+  padding: 3px;
+  background-color: #868D8E;
+  margin-top: -16px;
+  padding-left: 12px;
+  font-size:8px;
+}
+
+#barmost{
+  background-color:#000000; 
+  color:black; 
+  position:relative; 
+  width:60px; 
+  height:20px;
+}
+  
+#barmedium{
+  background-color:#545454; 
+  color:black; 
+  position:relative; 
+  width:60px; 
+  height:20px;
+  left:320px;
+  top: -20px;
+    
+}
+    
+#barleast{
+  background-color:#fff; 
+  color:black; 
+  position:relative; 
+  width:60px; 
+  height:20px;
+  left:640px;
+  top: -40px;
+      
+}
+
+/*.skill{
+  opacity:0;
+}*/
