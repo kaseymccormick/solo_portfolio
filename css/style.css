@@ -10,6 +10,12 @@ body{
 .show{
   display:block;
 }
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
 
 .container{
   width:80%;
@@ -227,7 +233,7 @@ footer{
   position:relative; 
   width:0px; 
   height:60px;
-  left:180px;
+  left:160px;
   top: -60px;
     
 }
@@ -237,7 +243,7 @@ footer{
   position:relative; 
   width:0px; 
   height:60px;
-  left:760px;
+  left:680px;
   top: -120px;
       
 }
@@ -247,11 +253,18 @@ footer{
     list-style: none;
     padding: 0px;
     margin: 0px;
-    width: 16%;
+    width: 15%;
     font-size: 1em;
     margin-right: 38px;
-    width: 100;
 }
-.resuleme__skills__list {
+.resume__skills__list {
     margin-top: -85px;
+}
+.mostskill, .mediumskill, .leastskill{
+  opacity:0;
+}
+
+.bar-graph__title {
+    padding-bottom: 50px;
+    font-size:12px;
 }
