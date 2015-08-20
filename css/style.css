@@ -4,6 +4,13 @@ body{
 .clear{
   clear:both;
 }
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}
+
 .container{
   width:80%;
   margin:0px auto;
@@ -209,35 +216,42 @@ footer{
 }
 
 #barmost{
-  background-color:#000000; 
-  color:black; 
+  background-color:#21862C; 
   position:relative; 
-  width:60px; 
-  height:20px;
+  width:0px; 
+  height:60px;
 }
   
 #barmedium{
-  background-color:#545454; 
-  color:black; 
+  background-color:#47C755; 
   position:relative; 
-  width:60px; 
-  height:20px;
-  left:320px;
-  top: -20px;
+  width:0px; 
+  height:60px;
+  left:180px;
+  top: -60px;
     
 }
     
 #barleast{
-  background-color:#fff; 
-  color:black; 
+  background-color:#8CEC97; 
   position:relative; 
-  width:60px; 
-  height:20px;
-  left:640px;
-  top: -40px;
+  width:0px; 
+  height:60px;
+  left:760px;
+  top: -120px;
       
 }
 
-/*.skill{
-  opacity:0;
-}*/
+.skills {
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 16%;
+    font-size: 1em;
+    margin-right: 38px;
+    width: 100;
+}
+.resuleme__skills__list {
+    margin-top: -85px;
+}

@@ -1,30 +1,44 @@
 
 window.onload = function() {
+// var test = document.getElementById("leastskill")
+
+
+  
   var barmost = document.getElementById("barmost");
       barmedium = document.getElementById("barmedium");
       barleast = document.getElementById("barleast");
-      skills = document.querySelectorAll(".skill");
-  TweenLite.set(skills,{opacity:1});
-
-  TweenLite.to(barmost, 2, {width:"322px", onComplete: startMediumBar});
-  
-
-
-  var tl = new TimelineMax();
-  tl.staggerFrom(skills, 1, {y:-100, ease:Quart.easeOut, opacity:0}, 0.5);
-  
-  // var tl = new TimelineMax({repeat: 5});
-  // //     tl.to(soldier, .01, {opacity: 1})
-  // //     .staggerFrom(soldier, .7, {y:200}, .4);
-  //
-
+      mostSkills = document.querySelectorAll(".mostskill");
+      mediumSkills = document.querySelectorAll(".mediumskill");
+      leastSkills = document.querySelectorAll(".leastskill");
+      
+  TweenMax.to(barmost, 4.5, {onStart :startMostWords, width:"180px", onComplete: startMediumBar});
  
-
-
 }
+
+function startMostWords(){
+  var tl1w = new TimelineMax();
+  tl1w.staggerFrom(mostSkills, 1, { y:-100, ease:Quart.easeOut, opacity:0}, 0.5); 
+}
+
 function startMediumBar(){
-    TweenLite.to(barmedium, 2, {width:"322px", onComplete: startLeastBar });
+    TweenMax.to(barmedium, 8, {onStart:startMediumWords, width:"580px", onComplete: startLeastBar });
 }
+
+function startMediumWords(){
+  var tl2w = new TimelineMax();
+  tl2w.staggerFrom(mediumSkills, 1, { y:-100, ease:Quart.easeOut, opacity:0}, 0.5);
+}
+
+
 function startLeastBar(){
-  TweenLite.to(barleast, 2, {width:"322px", onComplete: console.log("complete") });
+  TweenMax.to(barleast, 5, {onStart: startLeastWords, width:"180px", onComplete: console.log("complete") });
 }
+
+function startLeastWords(){
+  var tl3w = new TimelineMax();
+  tl3w.staggerFrom(leastSkills, 1, {y:-100, ease:Quart.easeOut, opacity:0}, 0.5);
+}
+
+
+
+
