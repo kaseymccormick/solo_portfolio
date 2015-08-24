@@ -1,9 +1,7 @@
 
-window.onload = function() {
-// var test = document.getElementById("leastskill")
+when window.scrollY = 1330 run startAnimation
 
-
-  
+function startAnimation() {
   var barmost = document.getElementById("barmost");
       barmedium = document.getElementById("barmedium");
       barleast = document.getElementById("barleast");

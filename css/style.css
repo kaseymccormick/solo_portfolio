@@ -24,7 +24,7 @@ body{
 .header__navigation ul{
   list-style-type:none;
   float:right;
-  width:30%;
+  width:40%;
 }
 .header__navigation__item{
   float:left;
@@ -38,11 +38,11 @@ body{
   float:left;
   width:40%;
 }
-.about__image{
-  width:30%;
-  float:left;
-  padding:0px;
-  margin:0px;
+.about__image {
+    width: 20%;
+    float: left;
+    padding-left: 41px;
+    margin: 0px;
 }
 
 .about__content {
@@ -60,7 +60,7 @@ body{
   color: #B9E3EA; 
 }
 .project, .about{
-  padding: 30px;
+ padding: 30px 30px 5px;
 }
 .project--right{
   float:right;
@@ -267,4 +267,7 @@ footer{
 .bar-graph__title {
     padding-bottom: 50px;
     font-size:12px;
+}
+.project__links a {
+    margin-left: 40px;
 }
