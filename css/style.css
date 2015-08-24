@@ -1,6 +1,12 @@
 body{
   font-family:"arial";
 }
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+}
 .clear{
   clear:both;
 }
@@ -34,15 +40,15 @@ body{
   padding-left:20px;
   font-size:22px;
 }
-.about__image{
-  float:left;
-  width:40%;
+#about {
+    padding-top: 60px;
 }
+
 .about__image {
-    width: 20%;
-    float: left;
-    padding-left: 41px;
-    margin: 0px;
+  width: 20%;
+  float: left;
+  padding-left: 41px;
+  margin: 0px;
 }
 
 .about__content {
@@ -54,13 +60,11 @@ body{
 .header{
   text-align:center;
   margin-bottom: -26px;
-  color:#868D8E;
-}
-.header-blue{
   color: #B9E3EA; 
 }
+
 .project, .about{
- padding: 30px 30px 5px;
+  padding: 30px 30px 5px;
 }
 .project--right{
   float:right;
@@ -80,6 +84,7 @@ body{
 .project__content{
   float:left;
   width:50%;
+      padding-bottom: 20px;
 }
 .project__content--right {
   float: right;
@@ -193,7 +198,9 @@ h4.intro__header{
   left: 160px;
   margin: 18px 0px 0px;
 }
-
+.education__content {
+    padding-bottom: 70px;
+}
 .content__item__years li:nth-child(2) {
   text-align: center;
   width: 36%;
@@ -249,30 +256,31 @@ footer{
 }
 
 .skills {
-    float: left;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    width: 15%;
-    font-size: 1em;
-    margin-right: 38px;
+  float: left;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 15%;
+  font-size: 1em;
+  margin-right: 38px;
 }
 .resume__skills__list {
-    margin-top: -85px;
+  margin-top: -85px;
 }
 .mostskill, .mediumskill, .leastskill{
   opacity:0;
 }
 
 .bar-graph__title {
-    padding-bottom: 50px;
-    font-size:12px;
+  padding-bottom: 50px;
+  font-size:12px;
 }
 .project__links a {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 h1.project__content__header {
-    font-size: 30px;
-    font-weight: 100;
-    color: #868D8E;
+  font-size: 30px;
+  font-weight: 100;
+  color: #868D8E;
+  margin-top: 0px;
 }
