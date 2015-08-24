@@ -271,3 +271,8 @@ footer{
 .project__links a {
     margin-left: 40px;
 }
+h1.project__content__header {
+    font-size: 30px;
+    font-weight: 100;
+    color: #868D8E;
+}
