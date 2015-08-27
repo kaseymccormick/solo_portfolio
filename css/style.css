@@ -19,8 +19,9 @@ header {
 .left{
   float:left;
 }
-.right{
-  float:right;
+.right {
+    float: right;
+    margin-right: 132px;
 }
 
 .container{
