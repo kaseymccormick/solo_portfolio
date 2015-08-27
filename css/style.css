@@ -284,3 +284,12 @@ h1.project__content__header {
   color: #868D8E;
   margin-top: 0px;
 }
+.project_video {
+    position: relative;
+    top: 262px;
+    right: -77px;
+}
+.project__rg-animation .project__image {
+    position: relative;
+    top: -247px;
+}

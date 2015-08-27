@@ -1,5 +1,8 @@
 
-when window.scrollY = 1330 run startAnimation
+function testScroll(ev){
+    if(window.pageYOffset>=1500) startAnimation();
+}
+window.onscroll=testScroll
 
 function startAnimation() {
   var barmost = document.getElementById("barmost");
