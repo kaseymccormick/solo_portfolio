@@ -169,8 +169,8 @@ h4.intro__header{
   margin-bottom: -50px;
 }
 .resume__skills__content, .education__content, .work-history__content {
-  width: 90%;
-  margin: 0px auto;
+    width: 90%;
+    margin: 20px auto;
 }
 .skill__item {
   float: left;
