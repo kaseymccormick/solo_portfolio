@@ -1,6 +1,6 @@
 
 function testScroll(ev){
-    if(window.pageYOffset>=1400) startAnimation();
+    if(window.pageYOffset>=1100) startAnimation();
 }
 window.onscroll=testScroll
 
