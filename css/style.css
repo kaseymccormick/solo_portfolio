@@ -160,9 +160,12 @@ header {
   margin:0px auto;
 }
 
-.intro__header{
-  margin-left:240px;
+.resume-content__intro {
+    width: 78%;
+    margin: 0px 0px 0px 60px;
+    float: rig;
 }
+
 h4.intro__header{
   margin-top:-18px;
 }
