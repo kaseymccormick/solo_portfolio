@@ -2,10 +2,13 @@ body{
   font-family:"arial";
 }
 header {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color: white;
+  position: fixed;
+  z-index: 9990;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #B9E2E9;
+  border-top: 1px solid #b9e2e9;
+
 }
 .clear{
   clear:both;
@@ -20,8 +23,8 @@ header {
   float:left;
 }
 .right {
-    float: right;
-    margin-right: 132px;
+  float: right;
+  margin-right: 132px;
 }
 
 .container{
@@ -42,14 +45,15 @@ header {
   font-size:22px;
 }
 #about {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .about__image {
   width: 20%;
   float: left;
   padding-left: 41px;
-  margin: 0px;
+  margin: 13px 0px 0px;
+
 }
 
 .about__content {
@@ -85,7 +89,7 @@ header {
 .project__content{
   float:left;
   width:50%;
-      padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .project__content--right {
   float: right;
@@ -169,8 +173,8 @@ h4.intro__header{
   margin-bottom: -50px;
 }
 .resume__skills__content, .education__content, .work-history__content {
-    width: 90%;
-    margin: 20px auto;
+  width: 90%;
+  margin: 20px auto;
 }
 .skill__item {
   float: left;
@@ -200,7 +204,7 @@ h4.intro__header{
   margin: 18px 0px 0px;
 }
 .education__content {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 .content__item__years li:nth-child(2) {
   text-align: center;
@@ -286,11 +290,17 @@ h1.project__content__header {
   margin-top: 0px;
 }
 .project_video {
-    position: relative;
-    top: 262px;
-    right: -77px;
+  position: relative;
+  top: 262px;
+  right: -77px;
 }
 .project__rg-animation .project__image {
-    position: relative;
-    top: -247px;
+  position: absolute;
+  top: 26px;
+  z-index: 99999;
+  width: 430px;
+  right: 300px;
+}
+.project__rg-animation {
+  padding-bottom: 30px;
 }
