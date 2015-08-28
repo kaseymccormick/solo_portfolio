@@ -31,19 +31,8 @@ header {
   width:80%;
   margin:0px auto;
 }
-.header__navigation ul{
-  list-style-type:none;
-  float:right;
-  width:40%;
-}
-.header__navigation__item{
-  float:left;
-  color:#868D8E;
-  list-style-type:none;
-  text-decoration:none;
-  padding-left:20px;
-  font-size:22px;
-}
+
+
 #about {
   padding-top: 60px;
 }
@@ -107,14 +96,6 @@ header {
   width:50%;
 }
 
-.project__content__action a{
-  text-decoration:none;
-  color:#646464;
-  border:1px solid #646464;
-  border-radius:5px;
-  font-size:12px;  
-  padding:4px 8px; 
-}
 .project__content__action a:hover{
   color:white;
   background-color:#898989;
@@ -161,9 +142,9 @@ header {
 }
 
 .resume-content__intro {
-    width: 78%;
-    margin: 0px 0px 0px 60px;
-    float: rig;
+  width: 78%;
+  margin: 0px 0px 0px 60px;
+  float: rig;
 }
 
 h4.intro__header{
@@ -197,14 +178,6 @@ h4.intro__header{
 }
 .content__item {
   padding-top: 1px;
-}
-.content__item__years {
-  list-style-type: none;
-  width: 4.5%;
-  font-size: 12px;
-  position: absolute;
-  left: 160px;
-  margin: 18px 0px 0px;
 }
 .education__content {
   padding-bottom: 70px;
@@ -248,7 +221,7 @@ footer{
   position:relative; 
   width:0px; 
   height:60px;
-  left:160px;
+  left:120px;
   top: -60px;
     
 }
@@ -258,20 +231,12 @@ footer{
   position:relative; 
   width:0px; 
   height:60px;
-  left:680px;
+  left:480px;
   top: -120px;
       
 }
 
-.skills {
-  float: left;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  width: 15%;
-  font-size: 1em;
-  margin-right: 38px;
-}
+
 .resume__skills__list {
   margin-top: -85px;
 }
@@ -297,13 +262,155 @@ h1.project__content__header {
   top: 262px;
   right: -77px;
 }
-.project__rg-animation .project__image {
-  position: absolute;
-  top: 26px;
-  z-index: 99999;
-  width: 430px;
-  right: 300px;
-}
+
 .project__rg-animation {
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 370px) {
+  .header__navigation ul {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .header__navigation__item {
+    width: 100%;
+    color:#868D8E;
+    list-style-type:none;
+    text-decoration:none;
+    padding: 20px 0px;
+    font-size:20px;
+  }
+  .header__navigation__item:hover {
+    background-color:#BAE3EA;
+    color:white;
+  }
+  #about {
+    padding-top: 220px;
+  }
+  .about__image {
+    margin: 0px auto;
+    float:none;
+    padding:0px;
+  }
+  .about__content {
+    width:100%;
+  }
+  .project__image {
+    display:none;
+  }
+  .project__content {
+    width:100%;
+  }
+  .project__content__icons__item {
+    margin-right: -10px;
+  }
+  .project__content__action a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 9px 0px;
+    margin-top: 15px;
+  }
+  .project__content__action a:nth-child(2) {
+    margin-left: 0px;
+  }
+  .content__item__years {
+    left: 52px;
+  }
+  h3 {
+    padding-left: 52px;
+  }
+  .bar-graph {
+    display: none;
+  }
+  .skills {
+    float:none;
+    width:100%;
+          
+  }
+  .resume__skills__list {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 900px){
+  .header__navigation ul{
+    list-style-type:none;
+    float:right;
+    width:50%;
+  }
+  .header__navigation li{
+    float:left;
+
+    padding-left:20px;
+
+  }
+  h3 {
+    padding-left: 0px;
+  }
+  .header__navigation__item:hover {
+    text-decoration:underline;
+    background-color:white;
+    color:#868D8E;
+  }
+  .content__item__years {
+    list-style-type: none;
+    width: 4.5%;
+    font-size: 12px;
+    position: absolute;
+    left: 160px;
+    margin: 18px 2px 0px;
+  }
+  .project__image {
+    display:inline;
+  }
+  .project__rg-animation .project__image {
+    position: absolute;
+    top: 90px;
+
+    width: 430px;
+    right: 300px;
+  }
+  .project__content {
+    width:50%;
+  }
+  
+  .bar-graph {
+    display: block;
+  }
+  
+  .skills {
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 15%;
+    font-size: 1em;
+    margin-right: 38px;
+  }
+  .project__content__action a{
+    text-decoration:none;
+    color:#646464;
+    border:1px solid #646464;
+    border-radius:5px;
+    font-size:12px;  
+    padding:6px 8px; 
+    width:20%;
+  }
+  
+  .resume__skills__list {
+    margin-top: 0px;
+  }
+  #about {
+    padding-top: 120px;
+  }
+  .about__image {
+    float:left;
+  }
+  .about__content {
+    width:75%;
+    float:left;
+  }
 }

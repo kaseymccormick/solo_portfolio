@@ -12,7 +12,7 @@ function startAnimation() {
       mediumSkills = document.querySelectorAll(".mediumskill");
       leastSkills = document.querySelectorAll(".leastskill");
       
-  TweenMax.to(barmost, 4.5, {onStart :startMostWords, width:"160px", onComplete: startMediumBar});
+  TweenMax.to(barmost, 4.5, {onStart :startMostWords, width:"20%", onComplete: startMediumBar});
  
 }
 
@@ -22,7 +22,7 @@ function startMostWords(){
 }
 
 function startMediumBar(){
-    TweenMax.to(barmedium, 8, {onStart:startMediumWords, width:"520px", onComplete: startLeastBar });
+    TweenMax.to(barmedium, 8, {onStart:startMediumWords, width:"60%", onComplete: startLeastBar });
 }
 
 function startMediumWords(){
@@ -32,7 +32,7 @@ function startMediumWords(){
 
 
 function startLeastBar(){
-  TweenMax.to(barleast, 5, {onStart: startLeastWords, width:"160px", onComplete: console.log("complete") });
+  TweenMax.to(barleast, 5, {onStart: startLeastWords, width:"20%", onComplete: console.log("complete") });
 }
 
 function startLeastWords(){
