@@ -31,7 +31,18 @@ header {
   width:80%;
   margin:0px auto;
 }
+.header__logo {
+    width: 25%;
+    position: relative;
+    top: 30px;
+    left: 140px;
+}
+.header__logo h1 {
+    margin: 0px;
+    color: #BAE2E9;
+    font-weight:lighter;
 
+}
 
 #about {
   padding-top: 60px;
@@ -340,6 +351,7 @@ h1.project__content__header {
     list-style-type:none;
     float:right;
     width:50%;
+        margin-top: -20px;
   }
   .header__navigation li{
     float:left;
