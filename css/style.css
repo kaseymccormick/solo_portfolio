@@ -366,13 +366,7 @@ h1.project__content__header {
   .project__image {
     display:inline;
   }
-  .project__rg-animation .project__image {
-    position: absolute;
-    top: 90px;
 
-    width: 430px;
-    right: 300px;
-  }
   .project__content {
     width:50%;
   }
